@@ -1,0 +1,13 @@
+# midi binding file for sooperlooper
+#  ch type val   cmd  ctrl  instance  [min_val_bound max_val_bound scale_style]
+#   type is one of:  'pc' = program change  'cc' = control change  'n' = note
+#    cmd is one of:  note down up set
+#    scale_style is one of:  gain 
+
+# this is made for the behringer bcf2000, factory preset #3
+
+0 n 35	note	pause	0
+0 n 36	note	record	0
+0 n 37	note	overdub	0
+0 n 46	note	undo_all	0
+
